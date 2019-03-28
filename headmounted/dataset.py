@@ -3,7 +3,7 @@
 
 import mne
 import numpy as np
-from alphawaves import download as dl
+from headmounted import download as dl
 from scipy.io import loadmat
 
 HEADMOUNTED_URL = 'https://zenodo.org/record/263823/files/'
@@ -61,7 +61,8 @@ class HeadMountedDisplay():
         if subject not in self.subject_list:
             raise(ValueError("Invalid subject number"))
 
-        url = '{:s}subject_{:02d}.mat'.format(HEADMOUNTED_URL, subject)
-        file_path = dl.data_path(url, 'HEADMOUNTED')
+        # url = '{:s}subject_{:02d}.mat'.format(HEADMOUNTED_URL, subject)
+        # file_path = dl.data_path(url, 'HEADMOUNTED')
+        file_path = './dataset/subject_{:02d}.mat'.format(subject)
 
         return [file_path]
