@@ -10,6 +10,28 @@ HEADMOUNTED_URL = 'https://sandbox.zenodo.org/record/263823/files/'
 
 class HeadMountedDisplay():
     '''
+    We describe the experimental procedures for a dataset that we have made publicly available
+    at https://doi.org/10.5281/zenodo.2617084 in mat (Mathworks, Natick, USA) and csv formats.
+    This dataset contains electroencephalographic recordings of 12 subjects listening to music
+    with and without a passive head-mounted display, that is, a head-mounted display which does
+    not include any electronics at the exception of a smartphone. The electroencephalographic 
+    headset consisted of 16 electrodes. Data were recorded during a pilot experiment taking 
+    place in the GIPSA-lab, Grenoble, France, in 2017 (Cattan and al, 2018). 
+    The ID of this dataset is PHMDML.EEG.2017-GIPSA.
+   
+    **Full description of the experiment and dataset**
+    https://hal.archives-ouvertes.fr/hal-02085118
+    
+    **Link to the data**
+    https://doi.org/10.5281/zenodo.2617084
+ 
+    **Authors**
+    Principal Investigator: Eng. Grégoire Cattan
+    Technical Supervisors: Eng. Pedro L. C. Rodrigues
+    Scientific Supervisor: Dr. Marco Congedo
+    
+    **ID of the dataset**
+    PHMDML.EEG.2017-GIPSA
 
     '''
 
