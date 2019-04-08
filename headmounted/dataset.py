@@ -6,7 +6,7 @@ import numpy as np
 from headmounted import download as dl
 from scipy.io import loadmat
 
-HEADMOUNTED_URL = 'https://sandbox.zenodo.org/record/263823/files/'
+HEADMOUNTED_URL = 'https://zenodo.org/record/2617085/files/'
 
 class HeadMountedDisplay():
     '''
