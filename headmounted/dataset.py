@@ -3,7 +3,7 @@
 
 import mne
 import numpy as np
-from headmounted import download as dl
+from . import download as dl
 from scipy.io import loadmat
 
 HEADMOUNTED_URL = 'https://zenodo.org/record/2617085/files/'

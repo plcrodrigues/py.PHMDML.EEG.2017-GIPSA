@@ -17,7 +17,7 @@ subject and then do a spectral analysis of the signals.
 
 # instantiate the dataset we want to use
 from headmounted.dataset import HeadMountedDisplay
-dataset = HeadMountedDisplay()
+dataset = HeadMountedDisplay() # use useMontagePosition=False with recent mne versions
 
 # define the general parameters for the script
 subject = 1
