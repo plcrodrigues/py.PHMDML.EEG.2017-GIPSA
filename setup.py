@@ -107,10 +107,8 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
 
     # This field adds keywords for your project which will appear on the
@@ -142,7 +140,8 @@ setup(
     install_requires=[
             "mne==0.24.1",
             "scipy>=1.8",
-            "matplotlib>=3.4.3"],
+            "matplotlib>=3.4.3",
+            "pooch==1.7.0"],
             
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
