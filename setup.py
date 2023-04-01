@@ -137,7 +137,7 @@ setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
     setup_requires=[
-        "setuptools==65.5.1",
+        "setuptools>=40.6.3",
         "numpy==1.14.3"],
     install_requires=[
             "mne==0.17.0",
