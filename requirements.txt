@@ -1,5 +1,5 @@
-setuptools==65.5.1
-numpy==1.14.3
-matplotlib==2.2.2
-scipy==1.1.0
-mne==0.17.0
+setuptools>=40.6.2
+numpy>=1.13.3
+matplotlib>=3.4.3
+scipy>=1.8
+mne==0.24.1

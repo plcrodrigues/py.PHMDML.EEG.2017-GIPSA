@@ -3,7 +3,7 @@ Repository with basic scripts for using the Passive Head-Mounted Display Music-L
 
 [https://zenodo.org/record/2617085](https://zenodo.org/record/2617085)
 
-The code of this repository was developed in **Python 3** using MNE-Python [2, 3] as tool for the EEG processing.
+The code of this repository was developed in Python 3 using MNE-Python [2, 3] as tool for the EEG processing. It is compatible with **Python 3.8 and 3.9**.
 
 To make things work, you might need to install some packages. They are all listed in the `requirements.txt` file and can be easily installed by doing
 
