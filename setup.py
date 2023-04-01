@@ -142,7 +142,6 @@ setup(
     install_requires=[
             "mne==0.17.0",
             "scipy==1.1.0",
-            "scikit_learn>=0.23",
             "matplotlib==2.2.2"],
 
     # List additional groups of dependencies here (e.g. development
