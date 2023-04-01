@@ -142,7 +142,7 @@ setup(
     install_requires=[
             "mne==0.17.0",
             "scipy==1.1.0",
-            "matplotlib==2.2.2"],
+            "matplotlib>=3.4.3"],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
