@@ -138,12 +138,12 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     setup_requires=[
         "setuptools>=40.6.3",
-        "numpy==1.14.3"],
+        "numpy>=1.13.3"],
     install_requires=[
-            "mne==0.17.0",
-            "scipy==1.1.0",
+            "mne==0.24.1",
+            "scipy>=1.8",
             "matplotlib>=3.4.3"],
-
+            
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
