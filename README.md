@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+This dataset is now available in [moabb](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Cattan2019_PHMD.html#moabb.datasets.Cattan2019_PHMD)
+
 # py.PHMDML.EEG.2017-GIPSA
 Repository with basic scripts for using the Passive Head-Mounted Display Music-Listening EEG developed at GIPSA-lab [1]. The dataset files and their documentation are all available at 
 
